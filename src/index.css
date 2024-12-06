@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-shape-divider-bottom-hero {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+  
+.custom-shape-divider-bottom-hero svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 192px;
+}
+  
+.custom-shape-divider-bottom-hero path {
+    fill: #ffffff; /* Adjust the color as needed */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
