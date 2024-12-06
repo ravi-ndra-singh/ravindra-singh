@@ -159,7 +159,7 @@ const Contact = () => {
                 className="w-8 h-8"
               />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ravi-ndra-singh" target="_blank" rel="noopener noreferrer">
               <img
                 src="https://img.icons8.com/?size=100&id=62856&format=png&color=FFFFFF"
                 alt="GitHub"
