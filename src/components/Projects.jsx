@@ -2,6 +2,15 @@ import React from "react";
 import { motion } from "framer-motion";
 import projects from "../files/projects-data"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import oceanus from "../assets/Oceanus.png"
+import lucy from "../assets/lucy.jfif"
+import stewart from "../assets/stewart.jfif"
+import tricopter from "../assets/tricopter.jpeg"
+import strawberrystacker from "../assets/strawberrystacker.jfif"
+import trong21 from "../assets/trong21.jfif"
+import trong22 from "../assets/trong22.png"
+
+const projectImages = [oceanus, trong22, strawberrystacker, tricopter, trong21, lucy, stewart]
 
 const Projects = () => {
   return (
@@ -22,7 +31,7 @@ const Projects = () => {
           >
             {/* Project Image */}
             <img
-              src={project.image}
+              src={projectImages[index]}
               alt={project.title}
               className="w-full h-48 object-cover"
             />
